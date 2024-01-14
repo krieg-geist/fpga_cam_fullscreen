@@ -1,0 +1,84 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\gowin_pllvr\GW_PLLVR.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\gowin_pllvr\TMDS_PLLVR.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\ov2640\I2C_Interface.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\ov2640\OV2640_Controller.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\ov2640\OV2640_Registers.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\syn_code\syn_gen.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\testpattern.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v'
+Analyzing Verilog file 'E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v'
+Compiling module 'video_top'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":23)
+Compiling module 'testpattern'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\testpattern.v":17)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_total'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":149)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_sync'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":150)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_bporch'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":151)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_res'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":152)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_total'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":153)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_sync'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":154)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_bporch'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":155)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_res'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":156)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":179)
+Compiling module 'OV2640_Controller'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\ov2640\OV2640_Controller.v":1)
+Compiling module 'OV2640_Registers'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\ov2640\OV2640_Registers.v":6)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\ov2640\OV2640_Registers.v":41)
+Compiling module 'I2C_Interface(SID=8'h60)'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\ov2640\I2C_Interface.v":14)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\ov2640\I2C_Interface.v":81)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\ov2640\I2C_Interface.v":166)
+Compiling module 'Video_Frame_Buffer_Top'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":3014)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module 'GW_PLLVR'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\gowin_pllvr\GW_PLLVR.v":9)
+Compiling module 'HyperRAM_Memory_Interface_Top'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":3735)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX1998) : Net '**' does not have a driver("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX1998) : Net '**' does not have a driver("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module 'syn_gen'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\syn_code\syn_gen.v":13)
+Compiling module 'TMDS_PLLVR'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\gowin_pllvr\TMDS_PLLVR.v":9)
+Compiling module 'DVI_TX_Top'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\dvi_tx\dvi_tx.v":1048)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\dvi_tx\dvi_tx.v":0)
+NOTE  (EX0101) : Current top module is "video_top"
+WARN  (EX0211) : The output port "rd_data[10]" of module "~hpram_wd.HyperRAM_Memory_Interface_Top_" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "rd_data[5]" of module "~hpram_wd.HyperRAM_Memory_Interface_Top_" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "rd_data[10]" of module "~hpram_lane.HyperRAM_Memory_Interface_Top__Z1" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "rd_data[5]" of module "~hpram_lane.HyperRAM_Memory_Interface_Top__Z1" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "addr_d[19]" of module "~hpram_init.HyperRAM_Memory_Interface_Top_" has no driver, assigning undriven bits to Z, simulation mismatch possible("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+[5%] Running netlist conversion ...
+WARN  (CV0020) : Input PIXDATA[1:0] is unused("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":32)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "testpattern" instantiated to "testpattern_inst" is swept in optimizing("E:\Downloads\tang-nano-4K-master\dk_video_HD\src\video_top.v":165)
+[95%] Generate netlist file "E:\Downloads\tang-nano-4K-master\dk_video_HD\impl\gwsynthesis\dk_video.vg" completed
+[100%] Generate report file "E:\Downloads\tang-nano-4K-master\dk_video_HD\impl\gwsynthesis\dk_video_syn.rpt.html" completed
+GowinSynthesis finish

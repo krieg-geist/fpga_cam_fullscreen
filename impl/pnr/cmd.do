@@ -1,0 +1,12 @@
+-d E:\Downloads\tang-nano-4K-master\dk_video_HD\impl\gwsynthesis\dk_video.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst E:\Downloads\tang-nano-4K-master\dk_video_HD\src\dk_video.cst
+-cfg E:\Downloads\tang-nano-4K-master\dk_video_HD\impl\pnr\device.cfg
+-sdc E:\Downloads\tang-nano-4K-master\dk_video_HD\src\dk_video.sdc
+-bit
+-tr
+-ph
+-timing
+-correct_hold 1
+-route_maxfan 23

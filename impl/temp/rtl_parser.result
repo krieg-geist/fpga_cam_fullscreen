@@ -1,0 +1,124 @@
+[
+ {
+  "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+  "InstLine" : 23,
+  "InstName" : "video_top",
+  "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+  "ModuleLine" : 23,
+  "ModuleName" : "video_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+    "InstLine" : 141,
+    "InstName" : "testpattern_inst",
+    "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/testpattern.v",
+    "ModuleLine" : 17,
+    "ModuleName" : "testpattern"
+   },
+   {
+    "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+    "InstLine" : 185,
+    "InstName" : "u_OV2640_Controller",
+    "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/ov2640/OV2640_Controller.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "OV2640_Controller",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 30,
+      "InstName" : "LUT",
+      "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/ov2640/OV2640_Registers.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "OV2640_Registers"
+     },
+     {
+      "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 41,
+      "InstName" : "I2C",
+      "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/ov2640/I2C_Interface.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "I2C_Interface"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+    "InstLine" : 244,
+    "InstName" : "Video_Frame_Buffer_Top_inst",
+    "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_frame_buffer/video_frame_buffer.v",
+    "ModuleLine" : 3014,
+    "ModuleName" : "Video_Frame_Buffer_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_frame_buffer/video_frame_buffer.v",
+      "InstLine" : 3065,
+      "InstName" : "vfb_hyperram_wrapper_inst",
+      "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_frame_buffer/video_frame_buffer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~vfb_hyperram_wrapper.Video_Frame_Buffer_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+    "InstLine" : 280,
+    "InstName" : "GW_PLLVR_inst",
+    "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/gowin_pllvr/GW_PLLVR.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "GW_PLLVR"
+   },
+   {
+    "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+    "InstLine" : 287,
+    "InstName" : "HyperRAM_Memory_Interface_Top_inst",
+    "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/hyperram_memory_interface/hyperram_memory_interface.v",
+    "ModuleLine" : 3735,
+    "ModuleName" : "HyperRAM_Memory_Interface_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "InstLine" : 3810,
+      "InstName" : "u_hpram_top",
+      "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~hpram_top.HyperRAM_Memory_Interface_Top_"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+    "InstLine" : 312,
+    "InstName" : "syn_gen_inst",
+    "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/syn_code/syn_gen.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "syn_gen"
+   },
+   {
+    "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+    "InstLine" : 393,
+    "InstName" : "TMDS_PLLVR_inst",
+    "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/gowin_pllvr/TMDS_PLLVR.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "TMDS_PLLVR"
+   },
+   {
+    "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/video_top.v",
+    "InstLine" : 410,
+    "InstName" : "DVI_TX_Top_inst",
+    "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 1048,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/dvi_tx/dvi_tx.v",
+      "InstLine" : 1079,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "E:/Downloads/tang-nano-4K-master/dk_video_HD/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ }
+]
